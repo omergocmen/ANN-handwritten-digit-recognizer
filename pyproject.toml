@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "mnist-neural-network"
+version = "0.1.0"
+description = "El yazısı rakam tanıma uygulaması"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.0"
+matplotlib = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
