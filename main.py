@@ -1,6 +1,3 @@
-# Eski import'u kaldır
-# from data import get_mnist
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
