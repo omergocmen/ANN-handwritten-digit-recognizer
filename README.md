@@ -20,7 +20,7 @@ Bu proje, sıfırdan oluşturulmuş bir yapay sinir ağı kullanarak el yazısı
 
 1. Projeyi klonlayın:
 ```bash
-git clone [proje-url]
+git clone [[proje-url]](https://github.com/omergocmen/ANN-handwriting--recognition.git)
 ```
 
 2. Gerekli paketleri yükleyin:
